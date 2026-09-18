@@ -14,7 +14,8 @@ What happens now, and what should become better?
 
 ## Why AI may help
 What pattern may need to be learned? What rules, interface, people, or review steps also belong to the system?
--Tooth decay has diverse, irregular appearances in terms of color spots, surface pits and erosion, with no fixed judgment standards for simple if/then rules. The system needs to learn visual patterns of healthy teeth and decayed teeth from real image samples. Human professional review is required for all system identification results to avoid misdiagnosis, and the system only serves as an auxiliary screening tool rather than a professional medical diagnosis tool.
+
+- Tooth decay has diverse, irregular appearances in terms of color spots, surface pits and erosion, with no fixed judgment standards for simple if/then rules. The system needs to learn visual patterns of healthy teeth and decayed teeth from real image samples. Human professional review is required for all system identification results to avoid misdiagnosis, and the system only serves as an auxiliary screening tool rather than a professional medical diagnosis tool.
 
 ## Initial data plan
 - Where the data may come from:Public open-source dental image datasets with health and decay labels, plus a small number of authorized real-scene oral photos for supplementary optimization
