@@ -2,12 +2,10 @@
 
 ## User and situation
 Who needs the system?
-
-School nurses and community oral screening staff need the system. 
+  School nurses and community oral screening staff need the system. 
 
 What happens now, and what should become better?
-
-Currently, oral health screening relies entirely on manual visual inspection, which is time-consuming, prone to human error, and inefficient for large-scale student group screenings. The system aims to assist staff in quickly and initially spotting potential tooth decay problems to improve screening efficiency and reduce missed checks.
+  Currently, oral health screening relies entirely on manual visual inspection, which is time-consuming, prone to human error, and inefficient for large-scale student group screenings. The system aims to assist staff in quickly and initially spotting potential tooth decay problems to improve screening efficiency and reduce missed checks.
 
 ## What the system should do
 - Input:Close-up oral and tooth photos taken under conventional lighting
