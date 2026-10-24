@@ -1,0 +1,13 @@
+{
+  "experiment": "Lab02 repeatable baseline",
+  "baseline_type": "pretrained ResNet18 feature + Logistic Regression (no fine-tune)",
+  "data_source": "kagglehub: tommyngx/dental-opg-xray-2024",
+  "label_rule": "Caries=1, Healthy Teeth=0; other classes ignored",
+  "random_seed": 42,
+  "total_samples": 80,
+  "train_samples": 60,
+  "holdout_eval_samples": 20,
+  "main_metric": "f1_score",
+  "f1_score": 0.5833,
+  "important_note": "Only two classes (healthy / caries) used for this baseline."
+}
