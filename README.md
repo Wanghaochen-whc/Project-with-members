@@ -17,9 +17,9 @@ Data description: See data/README.md
 
 Two ways to obtain data:
 
-Automatic download via kagglehub (Requires valid Kaggle API token and stable network)
+- Automatic download via kagglehub (Requires valid Kaggle API token and stable network)
 
-Manual download from Kaggle, set local dataset path in code
+- Manual download from Kaggle, set local dataset path in code
 
 **Run baseline**
 
