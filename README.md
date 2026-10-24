@@ -10,7 +10,7 @@ Python version: 3.10
 Install dependencies:
 ```bash
 git statuspip install -r requirements.txt
-
+```
 **Data**
 Data description: See data/README.md
 Two ways to obtain data:
