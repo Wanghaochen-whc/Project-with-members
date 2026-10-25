@@ -10,17 +10,23 @@ Python version: 3.10
 Install dependencies:
 ```bash
 git statuspip install -r requirements.txt
+```
+**Data**
 
-Data
 Data description: See data/README.md
-Two ways to obtain data:
-Automatic download via kagglehub (Requires valid Kaggle API token and stable network)
-Manual download from Kaggle, set local dataset path in code
 
-Run baseline
+Two ways to obtain data:
+
+- Automatic download via kagglehub (Requires valid Kaggle API token and stable network)
+
+- Manual download from Kaggle, set local dataset path in code
+
+**Run baseline**
+
 python src/baseline_pipeline.py
 
-Output
+**Output**
+
 This command automatically generates the result file:
 "reports/baseline_metrics.json"
 The current baseline uses data from only two categories—"healthy" and "caries"—with a sample size of 80, resulting in an F1-score of 0.5833. It is important to consider the impact of class imbalance on the evaluation metrics.
