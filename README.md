@@ -30,3 +30,16 @@ python src/baseline_pipeline.py
 This command automatically generates the result file:
 "reports/baseline_metrics.json"
 The current baseline uses data from only two categories—"healthy" and "caries"—with a sample size of 80, resulting in an F1-score of 0.5833. It is important to consider the impact of class imbalance on the evaluation metrics.
+
+## Lab 04: Inference Demo
+This demo runs a single inference using the pre-trained baseline model from Lab 02 (no retraining).
+
+### Run demo
+```bash
+python -m src.inference_demo --input-ref "C:/Users/w_h73/.cache/kagglehub/datasets/tommyngx/dental-opg-xray-2024/versions/1/Dental OPG XRAY Dataset/Dental OPG (Classification)/Caries/1.jpg"
+
+**Output file**
+reports/inference_demo.jsonl：Traceable inference record with request_id, prediction, action and metadata.
+
+**Architecture diagram**
+- Editable diagram: docs/inference_architecture.drawio
