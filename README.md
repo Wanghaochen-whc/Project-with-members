@@ -40,7 +40,7 @@ python -m src.inference_demo --input-ref "C:/Users/w_h73/.cache/kagglehub/datase
 ```
 
 **Output**
-reports/inference_demo.jsonl：Traceable inference record with request_id, prediction, action and metadata.
+- reports/inference_demo.jsonl：Traceable inference record with request_id, prediction, action and metadata.
 
 **Architecture diagram**
 - Editable diagram: docs/inference_architecture.drawio
