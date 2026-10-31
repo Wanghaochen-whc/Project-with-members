@@ -37,8 +37,9 @@ This demo runs a single inference using the pre-trained baseline model from Lab 
 ### Run demo
 ```bash
 python -m src.inference_demo --input-ref "C:/Users/w_h73/.cache/kagglehub/datasets/tommyngx/dental-opg-xray-2024/versions/1/Dental OPG XRAY Dataset/Dental OPG (Classification)/Caries/1.jpg"
+```
 
-**Output file**
+**Output**
 reports/inference_demo.jsonl：Traceable inference record with request_id, prediction, action and metadata.
 
 **Architecture diagram**
