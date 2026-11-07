@@ -1,0 +1,8 @@
+{
+  "contract_version": "1.0",
+  "transform_id": "resnet18-standard-v1", 
+  "allowed_extensions": [".jpg", ".jpeg", ".png"],
+  "expected_source_keyword": "Dental OPG",
+  "error_action": "reject_input",
+  "warning_action": "route_for_review"
+}

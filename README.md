@@ -43,3 +43,21 @@ reports/inference_demo.jsonl：Traceable inference record with request_id, predi
 
 **Architecture diagram**
 - Editable diagram: docs/inference_architecture.drawio
+```
+
+## Lab 05: Executable Input Assurance
+Team Review & Discussion
+
+1. Which requests reached the prediction result?
+- Answer: Only the requests with a pass status (i.e., req-pass-001, which has a valid path containing the "Dental OPG" keyword for a normal X-ray) reached the prediction result and invoked the model.
+
+2. Why did the warning request stop?
+- Answer: According to our input contract (input_contract.json), when a warning rule is triggered (e.g., the path does not contain typical dataset characteristics), the configured action (warning_action) is route_for_review (forward to manual review). The validator intercepts it and does not automatically call the prediction to prevent unreliable medical advice from unknown data sources.
+
+3. Which checks produced an error? How does severity priority affect the overall status?
+
+- Answer: req-error-002 produced an error because the file extension was not .jpg/.png (triggering the valid_image_extension rule). The severity priority is error > warning > pass. This means that as long as one rule is judged as an error, regardless of whether other rules are pass or warning, the overall final_status will be forcibly judged as an error, thereby directly rejecting the input.
+
+4. Which fields associate the validation decision with the generated trace information?
+
+- Answer: The request_id field. It is created when the request is generated and runs through the entire process of validation, routing, and prediction, ensuring that each record in the JSONL log can be traced back to the same specific request attempt.
