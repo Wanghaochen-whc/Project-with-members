@@ -31,6 +31,7 @@ This command automatically generates the result file:
 "reports/baseline_metrics.json"
 The current baseline uses data from only two categories—"healthy" and "caries"—with a sample size of 80, resulting in an F1-score of 0.5833. It is important to consider the impact of class imbalance on the evaluation metrics.
 ```
+
 ## Lab 04: Inference Demo
 This demo runs a single inference using the pre-trained baseline model from Lab 02 (no retraining).
 
