@@ -43,8 +43,7 @@ reports/inference_demo.jsonl：Traceable inference record with request_id, predi
 
 **Architecture diagram**
 - Editable diagram: docs/inference_architecture.drawio
-```
-
+``
 ## Lab 05: Executable Input Assurance
 
 Team Review & Discussion
